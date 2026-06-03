@@ -16,12 +16,14 @@ El repositorio está organizado de forma modular en dos grandes bloques independ
 │   ├── insertionsort.h      # Implementación de insertion sort
 │   ├── mergesort.h          # Implementación de merge sort 
 │   ├── quicksort.h          # Implementación de quicksort (Pivote fijo)
+│   ├── tiempoejecucion.h    # Encapsula el tiempo de ejecución de una función
 │   ├── main.cpp             # Generador de vectores, ejecutor de pruebas y exportador CSV
 │   └── graficador.py        # Script en Python para dibujar curvas de rendimiento
 └── matrices/                # BLOQUE II: Multiplicación de matrices
     ├── tiempoejecucion.h    # Copia local de la cabecera genérica de cronometraje
     ├── matrices.h           # Utilidades para la creación y gestión de matrices dinámicas
     ├── strassen.h           # Implementación del algoritmo de Strassen
+    ├── tiempoejecucion.h    # Encapsula el tiempo de ejecución de una función
     ├── main.cpp             # Generador de matrices aleatorias y ejecutor de pruebas algebráicas
     └── graficador.py        # Script en Python para dibujar curvas de rendimiento
 ```
