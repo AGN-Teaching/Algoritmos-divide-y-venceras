@@ -1,0 +1,13 @@
+# Ejecutables
+*.exe
+*.out
+main
+main
+
+# Archivos de datos e imágenes generados
+*.csv
+*.png
+
+# Carpetas de entornos virtuales o IDEs
+.vscode/
+__pycache__/
